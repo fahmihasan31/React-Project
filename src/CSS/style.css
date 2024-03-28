@@ -1,0 +1,207 @@
+/* Styles.css */
+
+
+
+/* app.js */
+.bg {
+  /* background-image: url('../picture/bg.avif'); */
+  background-size: cover;
+  /* Menyesuaikan ukuran gambar agar mengisi kontainer */
+  background-position: center;
+  height: 100vh;
+}
+
+span {
+  color: aqua;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+  color: rgb(195, 156, 0);
+}
+
+.nav-link:focus {
+  color: rgb(195, 156, 0);
+}
+
+/* Beranda */
+.selamat {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.card-text-container1 {
+  margin-top: 20%;
+  flex: 1;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-text2 {
+  font-size: 30px;
+}
+
+.card-title {
+  color: rgb(0, 0, 0);
+  margin-top: -3%;
+  font-size: 60px;
+  font-weight: bold;
+  width: -10%;
+}
+
+
+/* TentangSaya */
+.title-tentang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image {
+  margin-left: 15%;
+}
+
+.image1 {
+  float: left;
+  margin-right: 20px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-text-container {
+  flex: 1;
+}
+
+.card-title1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 12%;
+}
+
+.card-text1 {
+  font-size: 16px;
+
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 10%;
+  background-color: black;
+  color: white;
+}
+
+/* karya */
+.karya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.card-body1 {
+  margin-top: auto;
+
+}
+
+
+/* kontak */
+.container {
+  .container {
+    max-width: 70%;
+    margin: 0 auto;
+    /* Untuk membuatnya berada di tengah */
+  }
+}
+
+.bg-light {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.form-control:focus {
+  outline: none;
+
+  border-color: #007bff;
+  /* Mengubah warna border saat input di-focus */
+}
+
+.kontak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
