@@ -202,9 +202,6 @@ class Gallery extends Component {
           </div>
         </div>
       </div>
-
-
-
     );
   }
 

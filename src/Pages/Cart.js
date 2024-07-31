@@ -46,10 +46,14 @@ class Cart extends Component {
             <h4>Data Keranjang Belanja</h4>
           </div>
 
+          <br />
+
           <div className="card-body2">
             <h5 className="text-primary">
               Nama User: {this.state.user}
             </h5>
+
+            <br />
 
             <table className="table table-bordered">
               <thead>
